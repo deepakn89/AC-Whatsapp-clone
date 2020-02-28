@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AC-Whatsapp-clone</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">mSfHRy5WykKKj3g4IWcAuXYmFbhjktKuHtnk89KK</string>
+    <string name="back4app_client_key">VGEQit2VyWPriT8sPzemUs3bT9Io8cqbRXmeAXme</string>
+
+    <string name="please_enter_email">Please enter email</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="logout">logout</string>
+</resources>
