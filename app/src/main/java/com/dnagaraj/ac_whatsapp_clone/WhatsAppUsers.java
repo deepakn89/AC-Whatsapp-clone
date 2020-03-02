@@ -121,6 +121,10 @@ public class WhatsAppUsers extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        FancyToast.makeText(WhatsAppUsers.this, "Chat with "+ parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT,FancyToast.INFO,true).show();
+        //startActivity(new Intent(WhatsAppUsers.this,ChatActivity.class));
+        Intent intent=new Intent(WhatsAppUsers.this,ChatActivity.class);
+        intent.putExtra("name",parent.getItemAtPosition(position).toString());
+        startActivity(intent);
     }
 }
